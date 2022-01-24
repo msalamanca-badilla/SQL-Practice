@@ -55,6 +55,6 @@ SELECT * FROM country WHERE code = 'BRA';
 --               So I'm off to add one to the population I find
 --               In a city of ninety-one thousand and now, eighty five.
 
-
+SELECT * FROM city WHERE population = 91084;
 -- We're counting on you, gumshoe. Find out where she's headed, send us the info, and we'll be sure to meet her at the gates with bells on.
 
