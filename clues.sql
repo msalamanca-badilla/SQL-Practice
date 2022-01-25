@@ -5,7 +5,7 @@
 SELECT * FROM country WHERE population = (
     SELECT MIN(population) 
     FROM country 
-    WHERE country.region = 'Southern Europe'
+    WHERE region = 'Southern Europe'
 );
 
 -- Clue #2: Now that we're here, we have insight that Carmen was seen attending language classes in
